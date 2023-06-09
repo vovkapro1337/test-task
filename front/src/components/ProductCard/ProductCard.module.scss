@@ -1,0 +1,42 @@
+.productCard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	width: 210px;
+	height: 320px;
+
+	img {
+		width: 200px;
+		height: 200px;
+		object-fit: cover;
+		margin-bottom: 10px;
+	}
+
+	h3 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	span {
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+
+	button {
+		padding: 8px 16px;
+		background-color: #3498db;
+		color: #fff;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		transition: transform 0.3s ease;
+
+		&:active {
+			transform: translateY(3px);
+		}
+	}
+}
